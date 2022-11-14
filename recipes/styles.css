@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  img {
+    margin-bottom: 20px;
+  }
+
+  .recipe-card {
+    background-color: black;
+    color: white;
+    width: 80%;
+    max-width: 800px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+  }
+  h2 {
+    padding-bottom: 10px;
+  }
+  .line {
+    width: 75%;
+    height: 4px;
+    border: 1px solid white;
+    padding: 0;
+    translate: 120px -20px;
+  }
+
+  .ingredients li {
+    text-align: center;
+    list-style: none;
+  }
